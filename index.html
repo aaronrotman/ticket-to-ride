@@ -20,6 +20,7 @@
           <p class="lead">Blah Blah Blah</p>
         </div>
     </div>
+    <!-- Container for the buttons -->
     <div class="button-zone text-center">
       <button class="btn btn-primary point-button" type="submit" id="buttonOne">1</button>
       <button class="btn btn-primary point-button" type="submit" id="buttonTwo">2</button>
@@ -27,7 +28,13 @@
       <button class="btn btn-primary point-button" type="submit" id="buttonFour">4</button>
       <button class="btn btn-primary point-button" type="submit" id="buttonFive">5</button>
       <button class="btn btn-primary point-button" type="submit" id="buttonSix">6</button>
-      <button class="btn btn-outline-danger reset-button" type="button" id="reset-button">Reset</button>
+      <button class="btn btn-success score-button" type="submit" id="score-button">Save Score</button>
+      <button class="btn btn-outline-danger reset-button" type="button" id="reset-button">Reset Current Score</button>
+      <button class="btn btn-primary clear-html" type="submit" id="clear-html">Clear Saved Scores</button>
+    </div>
+    <!-- Container to append the player scores -->
+    <div class="score-zone text-center">
+      <!-- Player scores get appended here -->
     </div>
     <!-- D3 Javascript -->
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -37,6 +44,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scoreboard.js"></script>
     <script type="text/javascript" src="app.js"></script>
+    
   </body>
 </html>
